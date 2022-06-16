@@ -17,7 +17,7 @@ body {
 }
 
 .pw-container {
-    background-color: rgb(19, 35, 85);
+    background-color: rgb(132, 163, 255);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     min-width: 400px;
     border-radius: 12px;
@@ -28,7 +28,7 @@ body {
 }
 
 .pw {
-    background-color: rgb(22, 51, 83);
+    background-color: rgb(41, 42, 43);
     display: flex;
     font-size: 1.5rem;
     align-items: center;
