@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(to bottom, rgb(98, 113, 196),  rgb(41, 56, 138));
+    background: linear-gradient(25deg, #0052d4, #4364f7, #6fb1fc);
     color: white;
     display: flex;
     align-items: center;
@@ -17,8 +17,8 @@ body {
 }
 
 .pw-container {
-    background-color: rgb(132, 163, 255);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgb(0,0,0, 15%);
     min-width: 400px;
     border-radius: 12px;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 .pw {
-    background-color: rgb(41, 42, 43);
+    background-color: #292a2b;
     display: flex;
     font-size: 1.5rem;
     align-items: center;
@@ -38,13 +38,13 @@ body {
     padding: 1rem;
     overflow: auto;
     border-radius: 2px;
-    border-color: black 2px;
+    border-color: #000000 2px;
 }
 
 .pw button {
     background-color: white;
     border: none;
-    color: rgb(2, 21, 56);
+    color: #021538;
     cursor: pointer;
     font-family: inherit;
     font-weight: bold;
@@ -67,18 +67,18 @@ body {
 }
 
 .form-control {
-    color: #eee;
+    color: #2c2c2c;
     display: flex;
     justify-content: space-between;
     margin: 0.75rem 0;
 }
 
 .generate {
-    background-color: hsl(165, 84%, 27%);
+    background-color: #0052d4;
     border: none;
     border-radius: 6px;
     font-family: "Poppins", sans-serif;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     cursor: pointer;
     display: block;
     font-size: 1.5rem;
@@ -90,5 +90,5 @@ body {
 }
 
 .generate:hover{
-    background: hsl(165, 84%, 36%);
+    background: #4364f7;
 }
