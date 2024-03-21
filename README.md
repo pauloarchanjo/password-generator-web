@@ -1,4 +1,4 @@
-# Password-generator-with-Web
+# Password-generator-for-Web
 Password Generator using HTML, CSS and JavaScript.
 
 ![Screenshot](print.png)
