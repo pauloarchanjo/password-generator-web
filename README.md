@@ -1,5 +1,5 @@
 # Password-generator-with-Web
-Gerador de Senha utilizando a Tríade Web (HTML, CSS e JavaScript).
+Password Generator using HTML, CSS and JavaScript.
 
 ![Screenshot](print.png)
 
