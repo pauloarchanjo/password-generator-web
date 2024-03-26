@@ -30,7 +30,6 @@ function getSymbol() {
 
 function generatePassword() {
     const len = lenEl.value;
-
     let password = "";
 
     if (upperEl.checked) {
@@ -59,6 +58,7 @@ function generatePassword() {
 
 function generateX() {
     const xs = [];
+
     if (upperEl.checked) {
         xs.push(getUppercase());
     }
@@ -75,7 +75,9 @@ function generateX() {
         xs.push(getSymbol());
     }
 
-    if (xs.length === 0) return "";
+    if (xs.length === 0) {
+        return "";
+    }
 
     return xs[Math.floor(Math.random() * xs.length)];
 }
